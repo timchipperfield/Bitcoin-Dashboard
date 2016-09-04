@@ -1,0 +1,22 @@
+{
+  "name": "bitcoin-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timchipperfield/Bitcoin-Dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timchipperfield/Bitcoin-Dashboard/issues"
+  },
+  "homepage": "https://github.com/timchipperfield/Bitcoin-Dashboard#readme",
+  "dependencies": {
+    "jasmine": "^2.5.0"
+  }
+}

@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/timchipperfield/Bitcoin-Dashboard#readme",
   "dependencies": {
-    "jasmine": "^2.5.0"
+    "jquery": "^1.7.4",
+    "jasmine": "^2.5.0",
+    "jquery": "^3.1.0",
+    "jsdom": "5.4.1",
+    "promise": "^7.1.1"
   }
 }

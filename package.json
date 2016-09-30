@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,13 @@
   "homepage": "https://github.com/timchipperfield/Bitcoin-Dashboard#readme",
   "dependencies": {
     "angular": "^1.5.8",
+    "fs": "0.0.1-security",
     "jasmine": "^2.5.0",
     "jquery": "^3.1.0",
     "jsdom": "5.4.1",
     "promise": "^7.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2"
   }
 }

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html ng-app="bitCoinDash">
+<html>
   <head>
     <meta charset="utf-8">
     <title></title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js" type="text/javascript"></script>
+      <script type="text/javascript" src="./js/app.js"></script>
   </head>
 
-  <body>
+  <body ng-app="bitCoinDash">
     <div class="main" ng-controller="MainController">
       <p> {{ title }}</p>
       <p> {{ CAD }} </p>
@@ -14,7 +16,8 @@
 
   </body>
 
-      <script src="js/app.js"></script>
-      <script src="js/controllers/mainController.js"></script>
-      <script src="js/server.js"></script>
+
+
+  <script type="text/javascript" src="./js/controllers/mainController.js"></script>
+
 </html>
